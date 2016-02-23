@@ -19,12 +19,11 @@ body {
   text-align: center;
   margin-right: auto;
   margin-left: auto;
-  width: 4em;
+  width: 100%;
 }
 
 .sign h1 {
   margin: 0;
-  position: absolute;
   top: 7em;
 }
 
@@ -43,10 +42,9 @@ body {
 }
 
 .sign h2 {
-  margin: 0;
-  position: absolute;
   left: 50%;
-  top: 13em;
+  top: 14em;
+  margin-bottom: -1em;
 }
 
 .sign h2 span {
@@ -56,7 +54,6 @@ body {
   text-align: center;
   text-shadow: 0 0 1.2vh #EF7CA3, 0 0 2vh #E91E63;
   text-transform: uppercase;
-  position: absolute;
   transform-origin: bottom center;
 }
 
@@ -66,19 +63,15 @@ body {
 
 .sign .cntr {
   box-sizing: border-box;
-  position: absolute;
   text-align: center;
-  height: 39vh;
-  width: 39vh;
   color: white;
 }
 
 .sign .cntr p {
-  margin: 15vh 0;
+  margin: 0;
   color: #D7A7FB;
-  font: 8em "Sacramento", cursive;
+  font: 12em "Sacramento", cursive;
   text-align: center;
-  position: absolute;
   text-shadow: 0 0 0.75vh #7C3888, 0 0 1.5vh #B690F9;
 }
 

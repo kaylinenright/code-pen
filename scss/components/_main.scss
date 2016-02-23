@@ -17,11 +17,10 @@ body {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-    width: 4em;
+    width: 100%;
 
   h1 {
     margin: 0;
-    position: absolute;
    
     top: 7em;
     span {
@@ -39,10 +38,9 @@ body {
     }
   }
     h2 {
-    margin: 0;
-    position: absolute;
     left: 50%;
-    top: 13em;
+    top: 14em;
+    margin-bottom: -1em;
     span {
       box-sizing: border-box;
       color: #FBA7C3;
@@ -50,7 +48,6 @@ body {
       text-align: center;
       text-shadow: 0 0 $size/50 #EF7CA3, 0 0 $size/30 #E91E63;
       text-transform: uppercase;
-      position: absolute;
       transform-origin: bottom center;
       &.out {
         animation: Flicker .2s infinite;
@@ -60,19 +57,15 @@ body {
 
   .cntr {
     box-sizing: border-box;
-      position: absolute;
       text-align: center;
-    height: $size*.65;
-    width: $size*.65;
     
 
     color: white;
     p {
-      margin: $size/4 0;
+      margin: 0;
       color: #D7A7FB;
-      font: 8em $font-family;
+      font: 12em $font-family;
       text-align: center; 
-        position: absolute;
       text-shadow: 0 0 $size/80 #7C3888, 0 0 $size/40 #B690F9;
       span {
         @for $i from 1 through 7 {
