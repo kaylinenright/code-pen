@@ -25,10 +25,10 @@ body {
     top: 7em;
     span {
       box-sizing: border-box;
-      color: #FBA7C3;
+      color: #ff9a7a;
       font: 3em $fancy-font;
       text-align: center;
-      text-shadow: 0 0 $size/50 #EF7CA3, 0 0 $size/30 #E91E63;
+      text-shadow: 0 0 $size/50 #ff9a7a, 0 0 $size/30 #fe3d00;
       text-transform: uppercase;
 
       transform-origin: bottom center;
@@ -43,10 +43,10 @@ body {
     margin-bottom: -1em;
     span {
       box-sizing: border-box;
-      color: #FBA7C3;
+      color: #ffe987;
       font: $size/8 $fancy-font;
       text-align: center;
-      text-shadow: 0 0 $size/50 #EF7CA3, 0 0 $size/30 #E91E63;
+      text-shadow: 0 0 $size/50 #ffe987, 0 0 $size/30 #ffeb00;
       text-transform: uppercase;
       transform-origin: bottom center;
       &.out {
@@ -63,10 +63,10 @@ body {
     color: white;
     p {
       margin: 0;
-      color: #D7A7FB;
+      color: #0cd88b;
       font: 12em $font-family;
       text-align: center; 
-      text-shadow: 0 0 $size/80 #7C3888, 0 0 $size/40 #B690F9;
+      text-shadow: 0 0 $size/80 #08905c, 0 0 $size/40 #ffe987;
       span {
         @for $i from 1 through 7 {
           &:nth-child(#{$i}) {
@@ -80,19 +80,19 @@ body {
 
 @keyframes text {
   to {
-    color: rgba(215, 167, 251, .4);
+    color: rgba(12, 216, 139, 0.21);
     text-shadow: none;
   }
 }
 
 @keyframes Flicker {
   60%, 80% {
-    color: #A599A2;
-    text-shadow: 0 0 $size/50 rgba(239, 124, 163, 0.45), 0 0 $size/30 rgba(233, 30, 99, 0.47);
+    color: #ffe987;
+    text-shadow: 0 0 $size/50 rgba(255, 233, 135, 1), 0 0 $size/30 rgba(255, 233, 135, 1);
 
   }
   70%, 100% {
-    color: #F1BEEF;
-    text-shadow: 0 0 $size/30 #EF7CA3, 0 0 $size/20 #E91E63;
+    color: #ffe987;
+    text-shadow: 0 0 $size/30 #ffe987, 0 0 $size/20 #08905c;
   }
 }
